@@ -28,6 +28,7 @@ import (
 
 //!+main
 
+// 复合声明
 var palette = []color.Color{color.White, color.Black}
 
 const (

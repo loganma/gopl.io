@@ -14,7 +14,9 @@ import (
 
 func main() {
 	s, sep := "", ""
+	// _ blank identifier 空标识符
 	for _, arg := range os.Args[1:] {
+		// 如果数据量大，代价很高，使用 join 函数替代
 		s += sep + arg
 		sep = " "
 	}
